@@ -1,0 +1,8 @@
+Git --> 3-4 weeks
+Docker -->2 weeks
+Kubernetes--> 2 weeks
+Jenkins--> 1 week
+Java/Spring Boot/RestApi/Nosql Database (Dynamo DB)--> 2 months
+AWS--> 3 months
+CI/CD (DevOps) --> 2 days
+Scrum--> 1 days

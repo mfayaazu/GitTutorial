@@ -1,3 +1,45 @@
+Course Content:
+Git Basics:
+    Git Setup
+    Terminal basics
+    Create your first Repository
+    Make first commit
+    Check history
+
+Undoing Things:
+    What is HEAD?
+    Git checkout
+    Git Revert and git reset
+    Ignoring files by git
+
+Basics if Github:
+    What is github?
+    Create First Repository on Github
+    Pushing local repository on Github
+    Make first commit on Github
+
+Working with branches:
+    What is branching?
+    Branching in github
+
+Merge Branches:
+    Git merge(fast forward)
+    git merge(3-way merge)
+    Merge Conflict
+    Git Rebase
+
+merging in github:
+    Pull request and merge on github
+    Merge conflicts on github*****
+
+Forking anf Contributing
+    Fork and Clone
+    Contribute to the original Project
+    collaborate in Github
+
+
+
+
 Git
 allows you to record your changes(versions) of your projects and 
 allows you to go back and forth in different version
@@ -43,3 +85,19 @@ Task:
 16. Check the history and understand all the information shows by Git
 Bonus Task!!!!!!
 17. How can you restore a Tracked file from staging area??
+
+-----------------------------------------------------------------------
+Git Config:
+The git config command is a convenience function that is used to set Git configuration values on a global or local project level. These configuration levels correspond to .gitconfig text files. Executing git config will modify a configuration text file. We'll be covering common configuration settings like email, username, and editor. We'll discuss Git aliases, which allow you to create shortcuts for frequently used Git operations. Becoming familiar with git config and the various Git configuration settings will help you create a powerful, customized Git workflow.
+
+List of commands:
+history | grep git
+git config --global user.name ""
+git config --global user.email ""
+git config --global core.editor "code --wait"
+
+git config --global --unset core.editor
+
+
+
+
