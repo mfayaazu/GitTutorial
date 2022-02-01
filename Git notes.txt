@@ -1,0 +1,45 @@
+Git
+allows you to record your changes(versions) of your projects and 
+allows you to go back and forth in different version
+
+GitHub/Gitlab
+Online services build on git
+you can collaborate with other developers
+
+What is GIT?
+it is a distributed version control system.
+It creates a snapshot of your version and stores it in the same directory.
+
+list of commands:
+mkdir
+touch
+nano
+pwd
+cat
+
+git init
+git status
+git add
+git commit -m ""
+git rm --cached <file>
+git log
+
+Task:
+1. Create a folder
+2. Create a test file
+3. Check the status of the folder
+4. Initialize a Repository
+5. Check the status and understand the changes
+6. Create 2 more files
+7. See the status
+8. Add File1 to the staging area
+9. Bring it back to untracked area
+10. Add File2 to Staging area
+11. Commit your changes and find the commit ID(if you get error let me know at this stage)
+12. If no error then go ahead and make changes in File2 again
+13. See the difference and understand
+14. Now add any untracked file and see the difference
+15. Now commit all the files in git
+16. Check the history and understand all the information shows by Git
+Bonus Task!!!!!!
+17. How can you restore a Tracked file from staging area??
