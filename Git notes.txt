@@ -24,35 +24,35 @@ Working with branches:
 
 Merge Branches:
     Git merge(fast forward)
-    git merge(3-way merge)
+    Git merge(3-way merge)
     Merge Conflict
     Git Rebase
 
-merging in github:
+Merging in github:
     Pull request and merge on github
     Merge conflicts on github*****
 
 Forking anf Contributing
     Fork and Clone
     Contribute to the original Project
-    collaborate in Github
+    Collaborate in Github
 
 
 
 
-Git
-allows you to record your changes(versions) of your projects and 
-allows you to go back and forth in different version
+Git:
+    Allows you to record your changes(versions) of your projects and 
+    Allows you to go back and forth in different version
 
-GitHub/Gitlab
-Online services build on git
-you can collaborate with other developers
+GitHub/Gitlab:
+    Online services build on git
+    You can collaborate with other developers
 
 What is GIT?
-it is a distributed version control system.
-It creates a snapshot of your version and stores it in the same directory.
+    It is a distributed version control system.
+    It creates a snapshot of your version and stores it in the same directory.
 
-list of commands:
+List of commands:
 mkdir
 touch
 nano
@@ -97,6 +97,30 @@ git config --global user.email ""
 git config --global core.editor "code --wait"
 
 git config --global --unset core.editor
+
+Undoing things:
+
+git log --oneline
+git show <commitId>
+git show HEAD
+git show HEAD~(integer number that tell how many commits you want to go back)
+git checkout <file name>
+git restore <file name>
+git restore --staged <file name>
+git stash
+git stash pop
+git stash list
+git stash show
+git checkout<commitId>
+git checkout master
+
+
+
+
+
+
+
+
 
 
 
