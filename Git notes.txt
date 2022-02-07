@@ -116,11 +116,10 @@ git checkout master
 
 Git Revert: 
     It is used to undo changes to your Project commit history. 
-    The revert command takes the specifed commit, inverse the changes from that commit
-    and creates a new revert commit.
+    The revert command takes the specifed commit, inverse the changes 
+    from that commit and creates a new revert commit.
 
 git revert <commitID>
-
 
 Git Reset
 Dangerous and unsafe command.
