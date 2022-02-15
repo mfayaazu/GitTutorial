@@ -130,6 +130,13 @@ git reset --soft <commitID>
 git reset --hard <commitId>
 
 
+Working with branches:
+
+git checkout -b <branch name>
+git branch
+git push --set-upstream <branch name>
+git remote add <name> <url>
+
 
 
 
